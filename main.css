@@ -1,0 +1,133 @@
+body {
+    align-content: center;
+    background-color: paleturquoise;
+}
+
+header {
+    background-color: aliceblue;
+    margin: 3em;
+    border: dashed darkgreen;
+}
+
+div .cardbox {
+    margin:3em;
+    margin-bottom: 1em;
+    width: 92.5%;
+    height: 12.5em;
+    border: dashed darkgreen;
+}
+
+div.cardbox#split{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+div #player {
+    background-color: aliceblue;
+}
+
+div #dealer {
+    background-color: #FDECFF;
+}
+
+
+
+#foe {
+    display: flex;
+    justify-content: flex-end;
+    padding: .5em;
+}
+
+#you {
+    padding: .5em;
+}
+
+#split {
+}
+
+.hand li {
+    display: inline-block;
+}
+
+.hand img {
+    width: 6em;  
+    margin-right: .5em;
+    margin-left: .5em;
+    border: dashed 3px pink;
+    
+    border-radius: 11px;
+
+    
+}
+
+#gamealert {
+    font-size: 40px;
+    font-family: sans-serif;
+    color: black;
+    margin: .2em;
+    padding-bottom: .2em;
+    
+}
+
+
+.label1 {
+    float: left;
+}
+
+.label2 {
+    float: right;
+    margin-top: .6em;
+}
+
+.label3 {
+    margin-top: .6em;
+}
+
+div h2 {
+    font-family: sans-serif;
+    color: aliceblue;
+    background-color: #002929;
+    border: pink dashed 5px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: .25em;
+    width: 3.5em;
+    font-size: 40px;
+    text-align: center;
+    margin:.6em;
+
+    
+}
+
+.buttons {
+    text-align: center;
+    padding: 1.2em;
+
+}
+
+button {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 1em;
+    font-size: 30px;
+    background:  #002929;
+    border-style: groove;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 3.5em;
+    color: aliceblue;
+    box-shadow: 5px 10px teal;
+
+    
+}
+
+button:hover 
+{
+
+    border-color: green;
+    background-color: darkcyan;
+    box-shadow: 5px 10px pink;
+}
+
+
