@@ -228,8 +228,9 @@ $(document).ready(function() {
         }
         else {
             isPlayerTurn = true;
-            if (splitCards.length != 0){
+            if (handSplit == true){
                 $("#div.cardbox#split").remove();
+                handSplit = false;
             }
             dealerCards.length = 0;
             playerCards.length = 0;
